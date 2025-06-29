@@ -329,6 +329,7 @@ footer .foot .foot1 i:hover{
     }
     #check:checked ~ ul{
         left: 0;
+        
     }
     header .nav ul li a{
         font-size: 20px;
@@ -437,8 +438,5 @@ footer .foot .foot1 i:hover{
         top: 20em;
         
     }
-    body{
-         margin-right: 150px;
-          margin-left: 10px;
-    }
+    
 }
