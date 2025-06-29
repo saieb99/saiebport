@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "iPS2oid64eXqX1MQz",
+      });
+   })();
+</script>
+   
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <script src="java.js"></script>
+</head>
+<body>
+    <!--header start-->
+    <header>
+        <div class="logo">
+            <img src="logo.png.webp" alt="Personal">
+         </div>
+        <div class="nav">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+           <ul>
+            <li><a href="index.html" style="color: #7f97ff;">Home</a></li>
+            <li><a href="about.html" >About</a></li>
+            <li><a href="services.html">Services</a></li>
+           
+            
+            <li><a href="contact.html">Contact</a></li>
+           </ul>
+        </div>
+    </header>
+    <!--header close-->
+    <section class="section2">
+        <div class="img2">
+        <img src="saieb2.jpg" alt="">
+        </div>
+        <div class="text2">
+        <h3>About me</h3>
+        <h1>Personal details</h1>
+        <p>This is Mushfikul islam saieb.<br>From patiya, Chittagong, Bangladesh.<br> Coding is my hobby.</p>
+        <a href="vfd.html"><input type="button" value="View Full Details"></a>
+        </div>
+        </section>
+        <footer class="fot">
+        <div class="foot">
+        <div class="foot1">
+         <h3>About me</h3>
+         <p >Copyright ©2025 All rights reserved Mushfikul Islam Saieb</p>
+        </div>
+        <div class="foot1">
+           <h3>Newsletter</h3>
+           <p>Stay updated</p>
+           <input type="text" placeholder="Enter email address" required>
+           <button onclick="sendEmail()">Send</button>
+        </div>
+        <div class="foot1">
+        <h3>Follow me</h3>
+        <p>Let us be social</p>
+        <a href="https://www.facebook.com/mushfikul.islam.749488?mibextid=rS40aB7S9Ucbxw6v"><i class="fab fa-facebook"></i></a>
+         <a href="http://wa.me/+8801914820649"><i class="fab fa-whatsapp"></i></a>
+          <a href="http://www.youtube.com/@MushfikulIslam-i5c"><i class="fab fa-youtube"></i></a>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>

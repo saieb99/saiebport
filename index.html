@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "iPS2oid64eXqX1MQz",
+      });
+   })();
+</script>
+   
+
+
+
+    <title>Personal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+</head>
+<body>
+    <!--header start-->
+    <header>
+        <div class="logo">
+            <img src="logo.png.webp" alt="Personal">
+         </div>
+        <div class="nav">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+           <ul>
+            <li><a href="index.html" style="color: #7f97ff;">Home</a></li>
+            <li><a href="about.html" >About</a></li>
+            <li><a href="services.html">Services</a></li>
+           
+            
+            <li><a href="contact.html">Contact</a></li>
+           </ul>
+        </div>
+    </header>
+    <!--header close-->
+    <!--section start-->
+    <section class="section1">
+        <div class="half1">
+            <h3>This is me</h3>
+            
+            <h1>Mushfikul Islam</h1>
+            
+            <p>You can't stay forever in this mortal world. <br>
+               Life is too short.</p>
+            
+            <input type="button" value="DISCOVER NOW">
+        </div>
+        <div class="half2">
+            <img src="eb41dbd7-6f43-46e4-8d47-5a52a9c96d9b.jpg" alt="">
+        </div>
+    </section>
+    <!--section1 end-->
+    <!--section 2 start-->
+    <section class="section2">
+        <div class="img2">
+        <img src="saieb2.jpg" alt="">
+        </div>
+        <div class="text2">
+        <h3>About me</h3>
+        <h1>Personal details</h1>
+        <p>This is Mushfikul islam saieb.<br>From patiya, Chittagong, Bangladesh.<br> Coding is my hobby.</p>
+        <a href="vfd.html"><input type="button" value="View Full Details"></a>
+        </div>
+        </section>
+    <!--section 2 finish-->
+    <!--section 3 start-->
+    <section class="section3">
+        <div class="firsttext">
+            <h1>Services</h1>
+            <p>Pera nai chill,life perahin</p>
+        </div>
+       <div class="service">
+         <div class="ser1">
+            <div>
+              <i class="fa-solid fa-window-maximize"></i>
+              <h1>Web Designing</h1>
+            </div>
+            <div>
+              <i class="fa-solid fa-window-maximize"></i>
+              <h1>Web Development</h1>
+            </div>
+            <div>
+                <i class="fa-solid fa-camera-retro"></i>
+                <h1>Photography</h1>
+            </div>
+         </div>
+         </div>
+        </section>
+    <!--section 3 finish-->
+
+
+        <section class="sec5">
+        <div class="contact">
+        <h1>Contact</h1>
+        </div>
+        <form>
+        <div class="form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form">
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+        </div>
+        <div class="form">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" row="4" required></textarea>
+
+        </div>
+        <div><button type="submit" class="button1" onclick="sendMail()">Send</button></div>
+    </form>
+    </section>
+    <footer class="sec6">
+        <div class="foot">
+        <div class="foot1">
+         <h3>About me</h3>
+         <p >Copyright ©2025 All rights reserved Mushfikul Islam Saieb</p>
+        </div>
+        <div class="foot1">
+           <h3>Newsletter</h3>
+           <p>Stay updated</p>
+           <input type="text" placeholder="Enter email address" required>
+           <button onclick="sendEmail()">Send</button>
+        </div>
+        <div class="foot1">
+        <h3>Follow me</h3>
+        <p>Let us be social</p>
+        <a href="https://www.facebook.com/mushfikul.islam.749488?mibextid=rS40aB7S9Ucbxw6v"><i class="fab fa-facebook"></i></a>
+         <a href="http://wa.me/+8801914820649"><i class="fab fa-whatsapp"></i></a>
+          <a href="http://www.youtube.com/@MushfikulIslam-i5c"><i class="fab fa-youtube"></i></a>
+        </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
