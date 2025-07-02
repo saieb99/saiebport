@@ -15,3 +15,13 @@ function sendEmail(){
     }
     emailjs.send("service_a7tjtat","template_wvq5l6v",parms).then(alert("email sent!!"))
 }
+
+function showSidebar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'flex'
+
+}
+function hideSidebar(){
+     const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'none'
+}
