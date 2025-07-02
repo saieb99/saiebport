@@ -22,20 +22,22 @@
 <body>
      <header>
         <div class="logo">
-            <img src="logo.png.webp" alt="Personal">
+           <a href="index.html"><img src="logo.png.webp" alt="Personal"></a>
          </div>
-        <div class="nav">
-         <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <i class="fa-solid fa-bars"></i>
-            </label>
-           <ul>
+       <div class="nav">
+              <ul class="sidebar">
+             <li onclick="hideSidebar()"><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
             <li><a href="index.html" style="color: #7f97ff;">Home</a></li>
             <li><a href="about.html" >About</a></li>
             <li><a href="services.html">Services</a></li>
-           
-            
             <li><a href="contact.html">Contact</a></li>
+           </ul>
+           <ul>
+            <li class="hideOnMobile"><a href="index.html" style="color: #7f97ff;">Home</a></li>
+            <li class="hideOnMobile"><a href="about.html" >About</a></li>
+            <li class="hideOnMobile"><a href="services.html">Services</a></li>
+            <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+            <li class="menubar" onclick="showSidebar()"><a href="#"><i class="fa-solid fa-bars"></i></a></li>
            </ul>
         </div>
     </header>
