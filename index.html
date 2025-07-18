@@ -21,8 +21,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <script src="java.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
 </head>
-<body>
+<body onload="checkCookie()" >
     <!--header start-->
     <header>
         <div class="logo">
@@ -56,7 +58,7 @@
             <p>You can't stay forever in this mortal world. <br>
                Life is too short.</p>
             
-            <input type="button" value="DISCOVER NOW">
+            <input type="button" value="DISCOVER NOW"   >
         </div>
         <div class="half2">
             <img src="eb41dbd7-6f43-46e4-8d47-5a52a9c96d9b.jpg" alt="">
@@ -148,6 +150,11 @@
         </div>
         </div>
     </footer>
+      <script>
+        new kursor({
+            type: 1
+        })
+    </script>
     
 </body>
 </html>
