@@ -60,3 +60,7 @@ function checkCookie() {
      }
   }
 }
+
+function myFunction() {
+  document.getElementById("sec5").reset();
+}
