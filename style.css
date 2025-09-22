@@ -277,7 +277,23 @@ footer .foot .foot1 i:hover{
     color: white;
     border: 1px solid #8393ff;
     font-size: 15px;
+    float: right;
+    margin-right: 830px;   
 }
+
+.button2{
+    padding: 8px 20px;
+    background-color: #8393ff;
+    outline: none;
+    color: white;
+    border: 1px solid #8393ff;
+    font-size: 15px;
+    float: left;
+    margin-left: 830px;
+    
+    
+}
+
 .vfd{
     margin-top: 100px;
     margin-bottom: 50px;
@@ -314,6 +330,9 @@ footer .foot .foot1 i:hover{
     width: 100%;
 }
 .menubar{
+    display: none;
+} 
+.menubar1{
     display: none;
 }
 
